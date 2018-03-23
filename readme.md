@@ -6,6 +6,20 @@ Practicing TDD in Javascript environment.
 
 ## How to install
 
-## How to run
+```shell
+npm install
+```
+
+## How to run projet
+
+```shell
+npm start
+```
+
+## How to run tests
+
+```shell
+npm test
+```
 
 ## Next step

@@ -1,3 +1,11 @@
-const total = 0
+import { Dollar } from './dollar';
 
-document.getElementById('app').innerHTML = `${total} amount`
+export class App {
+  constructor() {
+    const dollar = new Dollar()
+    
+    dollar.amount = 100
+
+    document.getElementById('app').innerHTML = `${dollar.getAmountWithCurrency()} amount`
+  }
+}
