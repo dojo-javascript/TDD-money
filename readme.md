@@ -23,3 +23,5 @@ npm test
 ```
 
 ## Next step
+
+After installing modules, we will add test on dollar to add currency conversion with a new money (CHF).
